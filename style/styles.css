@@ -16,7 +16,7 @@ button {
     color: inherit;
 }
 .first-page__wrap {
-    background: linear-gradient(to right, black 461px, white 461px);
+    background: linear-gradient(to right, black 40%, white 40%);
 }
 
 .header {
@@ -31,7 +31,7 @@ button {
     text-transform: uppercase;
     padding-top: 36px;
     max-width: 409px;
-    width: 409px;
+    width: 33%;
     display: flex;
     justify-content: space-between;
 }
@@ -69,6 +69,8 @@ button {
     text-transform: uppercase;
     height: fit-content;
     padding-top: 6px;
+    width: 100%;
+    text-align: right;
 }
 
 .first-page__content {
@@ -136,7 +138,16 @@ button {
 .arrow-down {
     display: none;
 }
-
+@media screen and (max-width: 992px) {
+    .content__title {
+        font-size: 65px;
+        line-height: 51px;
+    }
+    .content__button {
+        padding: 20px;
+        margin-right: 20px;
+    }
+}
 @media screen and (max-width: 745px) {
     .first-page__wrap {
         background: url(../images/mobile.png) no-repeat;
@@ -178,7 +189,7 @@ button {
         display: none;
     }
     .content__title {
-        font-size: 50px;
+        font-size: 45px;
         line-height: 51px;
         margin-bottom: 66px;
         padding-left: 27px;
