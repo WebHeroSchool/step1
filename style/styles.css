@@ -230,15 +230,7 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
-    .first-page {
-        margin: 0 auto;
-        max-width: 1440px;
-    }
-    .header {
-        margin: 0 auto;
-        max-width: 1440px;
-    }
-    .footer {
+    .first-page, .header, .footer {
         margin: 0 auto;
         max-width: 1440px;
     }
