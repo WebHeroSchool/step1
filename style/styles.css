@@ -320,11 +320,20 @@ button {
     .value-box {
         padding: 0 12px;
     }
+    .full-content__wrap {
+        width: 63%
+    }
     .content__nav {
-        display: none;
+        padding-bottom: 30px;
+    }
+    .second-page__content .content__arrow-next {
+        width: 100%;
     }
 }
 @media screen and (max-width: 745px) {
+    .content__nav {
+        display: none;
+    }
     .first-page__wrap {
         background: url(../images/mobile.png) no-repeat;
         background-size: cover;
